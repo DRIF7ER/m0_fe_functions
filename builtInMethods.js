@@ -45,6 +45,21 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+/** The toUpperCase() method is calling on the thisIsAnExample variable, which is storing a statement string.
+ * There is no argument passed to the method as its job is to capitalize all text.
+ * The method returns "MY NAMING CONVENTIOLNS NEED WORK..." and this is printed in the terminal window.
+ */
+var thisIsAnExample = "My naming conventions need work...";
+console.log(thisIsAnExample.toUpperCase());
+
+/** The slice() method is calling on the anotherExample variable, which is storing a statement string.
+ * There are 2 arguments passed through the method which are index positons in the variable.
+ * The method evaluates the variable and the console log statement prints out the range of characters as indicated by the specified index positions.
+ * The printed return in the terminal window is "it secret; keep it".
+ */
+var anotherExample = "Keep it secret; keep it safe."
+console.log(anotherExample.slice(5, 24))
+
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
