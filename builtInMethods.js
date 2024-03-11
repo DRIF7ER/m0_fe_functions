@@ -10,12 +10,24 @@
 
 
 "Hello World".includes("Hello");
+/** The includes() method is calling on the string "Hello World".
+ * The argument "Hello" is passed; includes() method evaluates if the argument is present in the string and riturns either true or false.
+ * The return value is "true".
+ */
 
 
 "Hello World".endsWith("Hello");
+/** The endWith() method is calling on the string "Hello World".
+ * The argument "Hello" is passed; the method evaluates if the argument is true or false as related to the called upon string.
+ * The return value is "false".
+ */
 
 
 "Hello World".endsWith("rld");
+/** The endWith() method is calling on the string "Hello World".
+ * The argument "rld" is passed; the method evaluates if the argument is true or false as related to the called upon string.
+ * The return value is "true".
+ */
 
 
 
