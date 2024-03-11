@@ -67,3 +67,18 @@ console.log(anotherExample.slice(5, 24))
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+/** The indexOf() method calls on the guardians variable which consists of an array of 3 elements.
+ * The argument of "Hunter" is passed to the method which evaluates the position of the specified element with the array.
+ * The console log statement then prints the indexed position of the element into the terminal window.
+ * The printed return in this case is "0".
+ */
+var guardians = ["Hunter", "Warlock", "Titan"]
+console.log(guardians.indexOf("Hunter"))
+
+/** The toString() method calls on the guardians variable which consists of an array of 3 elements.
+ * There is no argument passed to the method as its job is to convert the array into a string.
+ * The console log statement then prints out the array as text in the terminal window.
+ * The printed return in this case is "Hunter,Warlock,Titan".
+  */
+console.log(`A Vanguard Fireteam usually consts of a ${guardians.toString( )} respectively.`)
